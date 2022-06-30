@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  MYSQL_DATABASE: nikappdb
+  MYSQL_USER: nikuser
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: nikappdb-config
+  namespace: nikdeploy-ns
